@@ -28,6 +28,11 @@ namespace LogicMicroservice.Controllers
             //foreach(var item in result)
             //    Debug.WriteLine(item);
             return Ok(result);
+            // Data Transfer Object
+            //return Ok(new
+            //{
+            //    data = result
+            //});
         }
         [HttpPost("bubble")] 
         public IActionResult BubbleSort([FromBody] int[] list)
