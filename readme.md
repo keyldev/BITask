@@ -11,16 +11,18 @@ int[] oddNums = numbers.Where(n => n % 2 != 0).ToArray();
 for (int i = 1; i < oddNums.Length; i += 2)
 {
     sum += oddNums[i];
-    
 }
 ```
 Реализация задания представлена в файле [SummaryService.cs](/src/LogicMicroservice/Services/SummaryService.cs)
 
 Проект [ViewMicroservice](src/ViewMicroservice/) отображает ответ в виде JSON.
 
+
 ## Реализовать приложение C#, которое предоставит функционал определения входящий строки на предмет, является ли она палиндромом.
 
 Проект [LogicMicroservice](/src/LogicMicroservice/)
+
+
 
 Реализация представлена в файле [PalindromService.cs](/src/LogicMicroservice/Services/PalindromeService.cs)
 
